@@ -1,5 +1,6 @@
 <template>
   <div>
+  testasdafd
     <NavBar></NavBar>
     <div class="content-app">
       <transition name="fadeInUp" mode="out-in">
