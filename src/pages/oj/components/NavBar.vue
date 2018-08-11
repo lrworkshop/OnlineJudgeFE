@@ -1,7 +1,8 @@
 <template>
   <div id="header">
     <Menu theme="light" mode="horizontal" @on-select="handleRoute" :active-name="activeMenu" class="oj-menu">
-      <div class="logo"><span>{{website.website_name}}</span></div>
+      <img class="lr_logo" :src="icon">
+      <div class="logo"><span>LR studio</span></div>
       <Menu-item name="/">
         <Icon type="home"></Icon>
         {{$t('m.Home')}}
@@ -86,6 +87,11 @@
   import register from '@oj/views/user/Register'
 
   export default {
+    data () {
+      return {
+        icon: '/static/time.jpeg'
+      }
+    },
     components: {
       login,
       register
@@ -141,6 +147,13 @@
     .oj-menu {
       background: #fdfdfd;
     }
+
+    .lr_logo{
+      margin-left: 2%;
+      margin-right: 2%;
+      float: left;
+      height: 60px;
+     }
 
     .logo {
       margin-left: 2%;

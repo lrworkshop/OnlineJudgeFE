@@ -1,6 +1,5 @@
 <template>
   <div>
-  testasdafd
     <NavBar></NavBar>
     <div class="content-app">
       <transition name="fadeInUp" mode="out-in">
@@ -8,7 +7,10 @@
       </transition>
       <div class="footer">
         <p v-html="website.website_footer"></p>
-        <p>hkjnasdfklasdhfaldfjalsfasljdfajldfiasfad
+        <p>qq</p>
+        <p style="margin-bottom:50px;"><img style="width:100px;" :src="link"></p>
+        <p>Powered by <a href="https://github.com/QingdaoU/OnlineJudge">OnlineJudge</a>
+          <span v-if="version">&nbsp;Version: {{version}}</span>
         </p>
       </div>
     </div>
@@ -27,7 +29,8 @@
     },
     data () {
       return {
-        version: process.env.VERSION
+        version: process.env.VERSION,
+        link: '/static/link.jpg'
       }
     },
     created () {
