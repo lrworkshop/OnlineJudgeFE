@@ -89,7 +89,7 @@
   export default {
     data () {
       return {
-        icon: '/static/time.jpeg'
+        icon: '/static/logo.jpg'
       }
     },
     components: {
