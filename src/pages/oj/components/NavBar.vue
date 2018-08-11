@@ -2,7 +2,7 @@
   <div id="header">
     <Menu theme="light" mode="horizontal" @on-select="handleRoute" :active-name="activeMenu" class="oj-menu">
       <img class="lr_logo" :src="icon">
-      <div class="logo"><span>LR studio</span></div>
+      <div class="logo"><span>凌睿工作室</span></div>
       <Menu-item name="/">
         <Icon type="home"></Icon>
         {{$t('m.Home')}}
