@@ -7,8 +7,8 @@
       </transition>
       <div class="footer">
         <p v-html="website.website_footer"></p>
-        <p style="font-size: 24px">凌睿工作室2018招新群：738606050</p>
-        <p style="margin-bottom:50px;"><img style="width:100px;" :src="link"></p>
+        <p style="font-size: 1.5em">凌睿工作室2018招新群：738606050</p>
+        <p style="margin-bottom:50px;"><img style="width:150px;" :src="link"></p>
         <p>Powered by <a href="https://github.com/QingdaoU/OnlineJudge">OnlineJudge</a>
           <span v-if="version">&nbsp;Version: {{version}}</span>
         </p>

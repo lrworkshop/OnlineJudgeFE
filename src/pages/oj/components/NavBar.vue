@@ -149,10 +149,9 @@
     }
 
     .lr_logo{
-      margin-left: 2%;
-      margin-right: 2%;
+      margin: 5px 2% 5px 2%;
       float: left;
-      height: 60px;
+      height: 50px;
      }
 
     .logo {
